@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+  <title>About Us</title>
+</head>
+<body>
+<div id="content" class="border text-black">
+  <!-- Banner Section -->
+  <section class="bg-blue-800 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">About Contact Manager</h2>
+      <p class="text-lg mb-8">Learn more about our mission and vision.</p>
+    </div>
+  </section>
+
+  <!-- About Us Content Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Who We Are</h2>
+      <p class="text-gray-600 mb-8">At Contact Manager, we strive to provide a secure and efficient way to manage all your contacts. Our goal is to help you stay organized and productive.</p>
+      <p class="text-gray-600">Founded by passionate tech enthusiasts, our platform ensures ease of use while maintaining robust security measures.</p>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">Our Core Values</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Innovation</h3>
+          <p class="text-gray-600">Constantly improving features to meet evolving user needs.</p>
+        </div>
+        <div class="p-6 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">Security</h3>
+          <p class="text-gray-600">Ensuring the highest level of security for your contact information.</p>
+        </div>
+        <div class="p-6 bg-white rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <h3 class="text-xl font-semibold mb-2">User Satisfaction</h3>
+          <p class="text-gray-600">Delivering a seamless user experience for contact management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#" class="text-blue-400">Twitter</a>, and <a href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("About page");
+</script>
+</body>
+</html>

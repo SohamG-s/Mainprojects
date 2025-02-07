@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+  <title>Our Services</title>
+</head>
+<body>
+<div id="content" class="border text-black">
+  <!-- Banner Section -->
+  <section class="bg-blue-800 text-white py-20 animate__animated animate__fadeInDown">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Our Services</h2>
+      <p class="text-lg mb-8">Discover how we can help you manage your contacts efficiently.</p>
+    </div>
+  </section>
+
+  <!-- Services Content Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12 animate__animated animate__fadeInUp">What We Offer</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-gray-100 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <i class="fas fa-address-book text-blue-800 text-4xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Contact Management</h3>
+          <p class="text-gray-600">Add, edit, and organize your contacts seamlessly.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <i class="fas fa-lock text-blue-800 text-4xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Data Security</h3>
+          <p class="text-gray-600">Enjoy secure storage for all your contacts with top-level encryption.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded shadow hover:shadow-lg transition duration-300 transform hover:scale-105">
+          <i class="fas fa-globe text-blue-800 text-4xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Cloud Access</h3>
+          <p class="text-gray-600">Access your contacts anytime, anywhere from any device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Contact Manager. All rights reserved.</p>
+      <p>Follow us on <a href="#" class="text-blue-400">Facebook</a>, <a href="#" class="text-blue-400">Twitter</a>, and <a href="#" class="text-blue-400">Instagram</a>.</p>
+    </div>
+  </footer>
+</div>
+<script>
+  console.log("Service page");
+</script>
+</body>
+</html>
